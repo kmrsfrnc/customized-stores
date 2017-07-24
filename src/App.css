@@ -1,0 +1,67 @@
+h2 {
+  margin-bottom:0;
+}
+
+ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align: left;
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App--theme-dark {
+  background: #333;
+  color:#fff;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  padding: 30px;
+  border-bottom:1px solid whitesmoke;
+  position: relative;
+}
+
+.app-config {
+  position: absolute;
+  top:15px;
+  right:15px;
+  width:30px;
+}
+
+.App-content {
+  max-width:540px;
+  margin:60px auto;
+}
+
+.app-footer {
+  padding-bottom: 60px;
+}
+
+.store-item {
+  padding:0 0 30px 0;
+  display:block;
+}
+
+.store-item__name {
+  font-size:20px; 
+  display:block;
+  margin-bottom:0.5em;
+}
+
+.store-item__price {
+  display:block;
+  margin-bottom:0.5em;
+}
